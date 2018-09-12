@@ -1,0 +1,48 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    int i,j,k,l;
+
+    for(i=5;i>=0;i--)
+    {
+        for(j=1;j<=5;j++)
+        {
+            if(i>=j)
+            {
+        printf(" ");
+            }
+        else
+        {
+        printf("*");
+        }
+        }
+
+        printf("\n");
+    }
+    for(k=2;k<=5;k++)
+    {
+
+        for(l=1;l<=5;l++)
+        {
+            if(k>l)
+        {
+            printf(" ");
+        }
+            else
+                {
+                printf("*");
+
+            }
+
+        }
+        printf("\n");
+        }
+
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
+
